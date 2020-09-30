@@ -26,7 +26,9 @@ Next, we reduce the data dimensions using the PCA model to narrow the data down 
 <br>
 Based on this Elbow Curve we choose n_clusters=4 to run our K-Means agorithm on the dataframe, pcs_df, created from the PCA model.  Finally, the clustered_df is created by merging the appropriate df's from earlier in the code and is exported as an Excel file [clustered_data.xlsx](Resources/clustered_data.xlsx).  Additionally, the resulting information is visualized with the 3d plot and scatter plots below. <br>
 <br>
-[3d_plot](Images/3d_plot.png)<br>
+<<<<<<< HEAD
+![3d_plot](Images/3d_plot.png)<br>
 <br>
-[hv_scatter](Images/hv_scatter.png)
+![hv_scatter](Images/hv_scatter.png)
 <br>
+
